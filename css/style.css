@@ -22,6 +22,7 @@ body {
   font-family: "Nunito", sans-serif;
   line-height: 1.5;
   background: var(--light-color);
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
@@ -251,20 +252,6 @@ h6 {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
 }
-/* #home-articles .article-container > *:nth-child(7n + 1) {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
-  grid-column: 1 / span 2;
-  align-items: center;
-}
-#home-articles .article-container > *:nth-child(7n) {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
-  grid-column: 2 / span 2;
-  align-items: center;
-} */
 
 /* main-footer */
 #main-footer {
